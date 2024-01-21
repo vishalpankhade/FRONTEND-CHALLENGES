@@ -13,7 +13,7 @@
     align-items: center;
 }
 
-.QR-card {
+.q-r-card {
     height: 400px;
     width: 272px;
     border-radius: 20px;
@@ -41,7 +41,7 @@
     font-size: 16px;
 }
 
-#light-text p {
+#light-text {
     color: hsl(220, 15%, 55%);
     font-size: 14px;
 }
