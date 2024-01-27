@@ -15,12 +15,12 @@ p {
 }
 
 body {
-    height: 100vh;
     width: 100%;
     background-image: url(images/bg-header-desktop.png);
     object-position: top;
     background-size: cover;
     height: 100px;
+    margin: 0%;
     background-repeat: no-repeat;
     font-family: "Bai Jamjuree", sans-serif;
 }
@@ -344,7 +344,6 @@ header {
 
 @media (max-width:745px) {
     body {
-        height: 100vh;
         width: 100vw;
         background-image: url(images/bg-header-mobile.png);
         object-position: top;
