@@ -257,10 +257,11 @@ header {
 }
 
 .clipboard-container p {
-    line-height: 20px;
+    line-height: 30px;
     width: 78%;
     text-align: center;
     margin: auto;
+
 }
 
 .footer-1 {
