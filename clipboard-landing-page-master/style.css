@@ -153,6 +153,11 @@ header {
     margin-bottom: 100px;
 }
 
+.conputer-section h1 {
+    font-size: 23px;
+    text-align: left;
+}
+
 
 .computer-section-texts {
     display: flex;
@@ -166,6 +171,7 @@ header {
 
 .computer-section-texts p {
     line-height: 30px;
+
 }
 
 .third-container {
@@ -183,13 +189,9 @@ header {
 }
 
 .third-container-text {
-    /* margin: 60px; */
+    margin-bottom: 50px;
     text-align: center;
     line-height: 40px;
-}
-
-.third-container-text h1 {
-    margin-bottom: 10px;
 }
 
 .third-container-text1 p {
@@ -376,6 +378,7 @@ header {
     .span-text {
         flex-direction: column;
         flex-wrap: wrap;
+        margin-bottom: 20px;
     }
 
 }
@@ -427,6 +430,10 @@ header {
 
     .computer-section-texts {
         gap: 15px;
+        text-align: center;
+    }
+
+    .computer-section-texts h1 {
         text-align: center;
     }
 
