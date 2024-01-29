@@ -53,9 +53,6 @@ header {
     align-items: center;
     gap: 23px;
     margin-bottom: 100px;
-    /* margin: auto; */
-    /* background-color: black; */
-
 }
 
 .first-container-textbox {
@@ -179,7 +176,6 @@ header {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    /* width: 60%; */
     margin: auto;
     gap: 20px;
 }
@@ -236,7 +232,6 @@ header {
     justify-content: center;
     gap: 5rem;
     padding: 110px 0px;
-    /* width: 200px; */
     flex-wrap: wrap;
 }
 
@@ -360,7 +355,6 @@ header {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* padding: 0%; */
         margin: 0%;
         height: 100%;
         text-align: center;
@@ -425,7 +419,6 @@ header {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* width: 80%; */
     }
 
     .computer-section-texts {
@@ -491,7 +484,6 @@ header {
             .company-logos {
                 display: flex;
                 flex-direction: column;
-                /* background-color: black; */
             }
 
         }

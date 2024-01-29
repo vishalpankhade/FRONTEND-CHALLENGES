@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #099ea6;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    height: 380px;
+    width: 320px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    background-position: top;
+    position: absolute;
+}
+
+.bg-img {
+    background-image: url(images/bg-pattern-card.svg);
+
+}
+
+.user-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-size: fill;
+    position: fixed;
+    border-radius: 50%;
+    border: 8px solid rgb(255, 246, 246);
+    width: 120px;
+    height: fit-content;
+    background-image: url(images/bg-pattern-card.svg);
+
+}
+
+.user-name a:hover {
+    cursor: pointer;
+    color: #099ea6;
+}
+
+a {
+    color: black;
+}
+
+.info {
+    padding-top: 75px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin: 3px;
+}
+
+span {
+    font-size: 20px;
+    color: gray;
+}
+
+.border {
+    width: 100%;
+    height: 0.1px;
+    background-color: #9d9d9d;
+    margin: 19px 0px;
+}
+
+
+.box-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 17px;
+}
