@@ -94,4 +94,10 @@ span {
     align-items: center;
     justify-content: space-around;
     margin: 19px;
+    font-size: medium;
+    text-align: center;
+}
+
+.box-footer span {
+    font-size: 17px;
 }
