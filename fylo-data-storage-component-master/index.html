@@ -20,27 +20,39 @@
         <div class="fylo-box">
           <div class="logo-heading">
             <img src="images/logo.svg" alt>
-            <h1>Fylo</h1>
           </div>
           <div class="fetures-section">
-            <a href> <img src="images/icon-document.svg" alt></a>
-            <a href> <img src="images/icon-folder.svg" alt></a>
-            <a href> <img src="images/icon-upload.svg" alt></a>
+            <a href> <img class="icon-document" src="images/icon-document.svg"
+                alt></a>
+            <a href> <img class="icon-folder" src="images/icon-folder.svg"
+                alt></a>
+            <a href> <img class="icon-upload" src="images/icon-upload.svg"
+                alt></a>
           </div>
         </div>
         <div class="box2">
-          <p> You’ve used 815 GB of your storage</p>
+          <p> You’ve used <span class="gb">815 GB</span> of your storage</p>
+          <div class="bar">
+            <div class="active-bar">
+              <div class="dot"></div>
+            </div>
+          </div>
+          <div class="min-max">
+            <p>0 GB</p>
+            <p>1000 GB</p>
+          </div>
           <div class="hover-box">
-            <p> 185 GB Left </p>
+            <h2 class="num">185</h2><h3> GB LEFT</h3>
+            <div class="triangle"></div>
           </div>
         </div>
       </div>
     </div>
-
+    <!-- 
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge"
         target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Your Name Here</a>.
-    </div>
+    </div> -->
   </body>
 </html>
