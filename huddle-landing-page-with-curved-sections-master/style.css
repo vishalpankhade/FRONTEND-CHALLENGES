@@ -396,12 +396,13 @@ footer p {
     height: 44px;
     border: none;
     max-width: 500px;
+    padding: 10px;
 }
 
 .input-area {
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 20px;
 }
 
 .newsletter-btn {
@@ -416,13 +417,24 @@ footer p {
     margin-left: 185px;
 }
 
+.social-icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+    margin: 50px 10px;
+}
+
+.social-icons img {
+    width: 50px;
+    padding: 10px;
+}
+
 @media (min-width: 768px) {
     .footers {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        /* gap: 28%; */
-        padding: 30px 20px;
+        padding: 60px 20px;
     }
 
     .footer-box-2-text-box {
@@ -436,6 +448,10 @@ footer p {
 
     .footer-top-curve {
         background-image: url(images/bg-footer-top-desktop.svg);
+        height: 120px;
+        width: 100vw;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
     }
 
 
